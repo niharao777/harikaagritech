@@ -21,7 +21,7 @@ const App: React.FC = () => {
               <div className="order-2 md:order-1 relative">
                 <div className="absolute -inset-4 bg-emerald-50 rounded-[40px] rotate-3"></div>
                 <img
-                  src="/images/HarikaAgritech.jpg" alt="Harika Agritech"
+                  src="images/HarikaAgritech.jpg" alt="Harika Agritech"
                   className="rounded-3xl shadow-2xl h-[450px] w-full object-cover relative z-10"
                 />
               </div>
