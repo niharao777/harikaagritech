@@ -163,7 +163,7 @@ export const SEED_VARIETIES: SeedVariety[] = [
     duration: '105-115 Days',
     yield: '8-10 Quintals/Acre',
     features: ['Oil Content (38 to 40%)', 'Medium bold sized seed', 'Reddish-brown coloured with yellow endosperm'],
-    image: 'images/ha-seeds.jpg'
+    image: 'images/mustard.png'
   },
   {
     id: 'm-2',
@@ -173,6 +173,6 @@ export const SEED_VARIETIES: SeedVariety[] = [
     yield: '12-15 Quintals/Acre',
     features: ['Oil Content (48%)', 'Medium to bold sized seed', 'Reddish-brown coloured with yellow endosperm'],
     description: 'A revolutionary hybrid mustard seed that significantly increases output through extensive branching.',
-    image: 'images/ha-seeds.jpg'
+    image: 'images/mustard.png'
   }
 ];

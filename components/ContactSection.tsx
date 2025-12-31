@@ -12,7 +12,7 @@ const ContactSection: React.FC = () => {
     message: ''
   });
 
-  const TARGET_PHONE = "8555045033";
+  const TARGET_PHONE = "9849724866";
   const TARGET_EMAIL = "harikaagritech422@gmail.com";
   const TARGET_CALL = "8977992064";
 

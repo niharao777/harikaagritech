@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import ProductSection from './components/ProductSection';
 import ContactSection from './components/ContactSection';
 import Testimonials from './components/Testimonials';
+import HeritageSlider from './components/HeritageSlider';
 
 const App: React.FC = () => {
   return (
@@ -17,26 +18,28 @@ const App: React.FC = () => {
         {/* About Section */}
         <section id="about" className="py-24 bg-white relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div className="order-2 md:order-1 relative">
-                <div className="absolute -inset-4 bg-emerald-50 rounded-[40px] rotate-3"></div>
-                <img
-                  src="images/HarikaAgritech.jpg" alt="Harika Agritech"
-                  className="rounded-3xl shadow-2xl h-[450px] w-full object-cover relative z-10"
-                />
-              </div>
-              <div className="order-1 md:order-2">
-                <h4 className="text-emerald-600 font-bold uppercase tracking-widest text-sm mb-4">About Us</h4>
-                <h2 className="text-4xl font-bold text-slate-900 mb-6 leading-tight italic font-['Playfair_Display']">Processed Seeds. <br />Transported with Trust.</h2>
-                <p className="text-slate-600 text-lg mb-6">
-                  Harika AgriTech is a trusted seed processing and export company established in 2001, driven by a strong commitment to serving the farming community through quality and reliability.
-                </p>
-                <p className="text-slate-600 text-lg mb-8">
-                 With over two decades of experience in the seed industry, Harika AgriTech specializes in the processing, grading, and export of premium seed varieties, ensuring high genetic purity, superior germination, and consistent field performance. Harika AgriTech processes and markets a wide range of agricultural seeds including Paddy, Wheat, and Mustard, catering to the diverse needs of farmers. Through its focus on quality, innovation, and ethical business practices, the company has built long-standing relationships with farmers and distributors across multiple states.
-                 </p>
-              </div>
+            <div className="text-center max-w-3xl mx-auto mb-16">
+                          <div className="inline-block px-4 py-1.5 bg-emerald-50 rounded-full mb-6">
+                             <h4 className="text-emerald-700 font-bold uppercase tracking-widest text-[10px]">About Us</h4>
+                          </div>
+                          <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight font-['Playfair_Display']">
+                            Processed Seeds. <br />
+                            <span className="text-emerald-600 italic">Transported with Trust.</span>
+                          </h2>
+                          <p className="text-slate-600 text-lg leading-relaxed">
+                            Harika AgriTech is a trusted seed processing and export company established in 2001, driven by a strong commitment to serving the farming community through quality and reliability.
+
+                          </p>
+                          <p className="text-slate-600 text-lg leading-relaxed">
+                          With over two decades of experience in the seed industry, Harika AgriTech specializes in the processing, grading, and export of premium seed varieties, ensuring high genetic purity, superior germination, and consistent field performance. Harika AgriTech processes and markets a wide range of agricultural seeds including Paddy, Wheat, and Mustard, catering to the diverse needs of farmers. Through its focus on quality, innovation, and ethical business practices, the company has built long-standing relationships with farmers and distributors across multiple states.
+                        </p>
+                        </div>
+
+                        {/* Full Row Slider */}
+                        <div className="mb-20">
+                          <HeritageSlider />
+                        </div>
             </div>
-          </div>
         </section>
 
         <ProductSection />
