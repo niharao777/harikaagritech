@@ -118,7 +118,7 @@ export const SEED_VARIETIES: SeedVariety[] = [
     duration: '130-135 Days',
     yield: '25-30 Quintals/Acre',
     features: ['Medium maturing hybrid with short & bold type of grains', 'Ligule is very long and auricle is Light brown in colour'],
-    image: 'images/ha-seeds.jpg'
+    image: 'images/paddy.png'
   },
   {
     id: 'p-14',
@@ -127,7 +127,7 @@ export const SEED_VARIETIES: SeedVariety[] = [
     duration: '120-125 Days',
     yield: '22-26 Quintals/Acre',
     features: ['Medium maturing hybrid with medium coarse type of grains', 'Ligule is small to medium sized and auricle is Light green'],
-    image: 'images/ha-seeds.jpg'
+    image: 'images/paddy.png'
   },
   {
     id: 'w-1',
